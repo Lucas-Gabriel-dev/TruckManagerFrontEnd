@@ -88,12 +88,12 @@ export function TruckInsert({display} : DisplayDiv){
                     <label className="normalLabel right">
                         Ano de fabricação:
                     </label>
-                    <input className="InputTruckInsert" type="text" {...register("yearManufacture", {required: false})} required/>
+                    <input className="InputWidthFull" type="text" {...register("yearManufacture", {required: false})} required/>
                 
                     <label className="normalLabel right">
                         Ano modelo:
                     </label>
-                    <input className="InputTruckInsert" type="number" {...register("modelYear")} required/>
+                    <input className="InputWidthFull" type="number" {...register("modelYear")} required/>
                 </section>
                 
                 <div
