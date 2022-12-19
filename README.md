@@ -3,7 +3,7 @@
 Projeto desenvolvido para aprimorar conhecimentos
 
 ## Sobre
-TruckManager é um crud que tem como finalidade fazer o gerenciamento de caminões, com possibilidades de visualizar, editar, excluir ou adicionar caminhões
+TruckManager é um crud que tem como finalidade fazer o gerenciamento de caminhões, com possibilidades de visualizar, editar, excluir ou adicionar caminhões
 no sistema.
 <br>
 <br>
