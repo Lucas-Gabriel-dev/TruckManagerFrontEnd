@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    width: 100vw;
+
+    background-color: #F1F5F9;
+    color: white;
+}
+
+::-webkit-scrollbar {
+    width: 8px;       
+}
+  
+::-webkit-scrollbar-track {
+    background: #808080;
+    border-radius: 6px;         
+}
+  
+::-webkit-scrollbar-thumb {
+    background-color: #d5dbe4;    
+    border-radius: 6px;       
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background-color: #b3b8c0;   
+} 
+
+input{
+    font-size: clamp(1px, 1.5rem, 2vw);
+    height: 5vh;
+    padding: 2%;
+    border-radius: 6px;
+    border: 2px solid #122F51;
+    align-self: center;
+}
+
+.InputSmall{
+    margin: 2% auto;
+    width: 20%;
+}
+
+.InputWidthFull{
+    width: 100%;
+    margin: 0% 0% 0% 4%;
+}
+
+#ButtonBack{
+    background-color: #363a3a,
+}
+
+.normalLabel{
+    font-size: clamp(1px, 2rem, 2vw);
+    align-self: center;
+}
+
+.normalLabel.left{
+    text-align: center;
+}
+
+.normalLabel.right{
+    text-align: right;
+}
+
+.spanInfo{
+    text-align: center;
+    align-self: center;
+    margin-left: 5%;
+}
