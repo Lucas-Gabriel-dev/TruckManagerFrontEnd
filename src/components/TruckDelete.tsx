@@ -223,7 +223,9 @@ export function TruckDelete({display}: DisplayDiv){
                 divTruckFoundDelete!.style.display = "block"
             }
         } catch (error) {
-            console.log(error)
+            if(error){
+                document.querySelector("#TitleErrorDelete")!.innerHTML = "Este id não existe!"
+            }
         }
     }
 
@@ -245,6 +247,15 @@ export function TruckDelete({display}: DisplayDiv){
                 }}
             >
                 EXCLUIR CAMINHÃO
+            </p>
+            
+            <p
+                id="TitleErrorDelete"
+                style={{
+                    textAlign: "center",
+                    color: "red"
+                }}
+            >
             </p>
             
             <div 
