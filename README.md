@@ -38,7 +38,7 @@ foi desenvolvido no Figma. Link para visualização: https://www.figma.com/file/
 <br>
 
 # Execução
-Para iniciar o projeto é necessário fazer o download dos pacotes utilizados no projeto. Para isso utilize o comando "yarn" ou "npm" em seu terminal.
+Para iniciar o projeto é necessário fazer o download dos pacotes utilizados no projeto. Para isso utilize o comando "yarn" ou "npm add" em seu terminal.
 Ao finalizar o download utilize o comando "yarn dev" ou "npm run dev" para iniciar o projeto em sua máquina local.
 
 <h4 align="center">
