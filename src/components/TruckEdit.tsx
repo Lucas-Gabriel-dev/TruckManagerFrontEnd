@@ -183,7 +183,9 @@ export function TruckEdit({display} : DisplayDiv){
                 divTruckFoundEdit!.style.display = "block"
             }
         } catch (error) {
-            console.log(error)
+            if(error){
+                document.querySelector("#TitleErrorEdit")!.innerHTML = "Este id não existe!"
+            }
         }
     }
 
@@ -206,6 +208,15 @@ export function TruckEdit({display} : DisplayDiv){
                 }}
             >
                 EDITAR CAMINHÃO
+            </p>
+            
+            <p
+                id="TitleErrorEdit"
+                style={{
+                    textAlign: "center",
+                    color: "red"
+                }}
+            >
             </p>
             
             <div 
